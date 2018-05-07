@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0!important;
+}
+
+li {
+  list-style: none;
+}
+
+.bg {
+  @include bg;
+  min-height: 100vh;
+}
+
+.home-wrapper {
+  min-height: 100vh;
+  @include flexCenterCenter;
+  flex-flow: column;
+}
+
+.post-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  li {
+    background: yellow;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 3px;
+  }
+}
+
+.hide {
+  display: none;
+}

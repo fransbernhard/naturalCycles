@@ -1,0 +1,16 @@
+header {
+  position: fixed;
+  width: 100vw;
+  height: 90px;
+  background: pink;
+  @include flexCenterCenter;
+}
+
+.menu-ul {
+  width: 100vw;
+  @include flexCenterSB;
+
+  h1, button {
+    margin: 0rem 1rem;
+  }
+}
