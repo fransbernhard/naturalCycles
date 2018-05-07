@@ -1,4 +1,4 @@
-# Task fo WillSkill
+# Task fo Natural Cycles
 
 - [ReactJS](https://reactjs.org/) - The state based framework for your Views
 - [React Router v4](https://reacttraining.com/react-router/web/guides/philosophy) - For routing to different paths
